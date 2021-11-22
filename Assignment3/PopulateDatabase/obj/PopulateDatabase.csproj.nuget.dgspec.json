@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Computer\\Documents\\GitHub\\data-access-teknikhogskolan-uddevalla-2021\\Inlämning 3 - GUI-program\\Assignment3\\PopulateDatabase\\PopulateDatabase.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Computer\\Documents\\GitHub\\data-access-teknikhogskolan-uddevalla-2021\\Inlämning 3 - GUI-program\\Assignment3\\PopulateDatabase\\PopulateDatabase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Computer\\Documents\\GitHub\\data-access-teknikhogskolan-uddevalla-2021\\Inlämning 3 - GUI-program\\Assignment3\\PopulateDatabase\\PopulateDatabase.csproj",
+        "projectName": "PopulateDatabase",
+        "projectPath": "C:\\Users\\Computer\\Documents\\GitHub\\data-access-teknikhogskolan-uddevalla-2021\\Inlämning 3 - GUI-program\\Assignment3\\PopulateDatabase\\PopulateDatabase.csproj",
+        "packagesPath": "C:\\Users\\Computer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Computer\\Documents\\GitHub\\data-access-teknikhogskolan-uddevalla-2021\\Inlämning 3 - GUI-program\\Assignment3\\PopulateDatabase\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Computer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows10.0.19041"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows10.0.19041": {
+            "targetAlias": "net5.0-windows10.0.19041.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows10.0.19041": {
+          "targetAlias": "net5.0-windows10.0.19041.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Windows.SDK.NET.Ref",
+              "version": "[10.0.19041.12, 10.0.19041.12]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Windows.SDK.NET.Ref": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
