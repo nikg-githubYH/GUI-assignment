@@ -459,11 +459,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Computer\\Documents\\GitHub\\data-access-teknikhogskolan-uddevalla-2021\\Inlämning 3 - GUI-program\\Assignment3\\PopulateDatabase\\PopulateDatabase.csproj",
+      "projectUniqueName": "C:\\Users\\Computer\\Documents\\GitHub\\GUI-assignment\\Assignment3\\PopulateDatabase\\PopulateDatabase.csproj",
       "projectName": "PopulateDatabase",
-      "projectPath": "C:\\Users\\Computer\\Documents\\GitHub\\data-access-teknikhogskolan-uddevalla-2021\\Inlämning 3 - GUI-program\\Assignment3\\PopulateDatabase\\PopulateDatabase.csproj",
+      "projectPath": "C:\\Users\\Computer\\Documents\\GitHub\\GUI-assignment\\Assignment3\\PopulateDatabase\\PopulateDatabase.csproj",
       "packagesPath": "C:\\Users\\Computer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Computer\\Documents\\GitHub\\data-access-teknikhogskolan-uddevalla-2021\\Inlämning 3 - GUI-program\\Assignment3\\PopulateDatabase\\obj\\",
+      "outputPath": "C:\\Users\\Computer\\Documents\\GitHub\\GUI-assignment\\Assignment3\\PopulateDatabase\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Computer\\AppData\\Roaming\\NuGet\\NuGet.Config",

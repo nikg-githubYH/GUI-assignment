@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lbcDmw6oStQg36GWf8uz7iIrsC7uY20xnevodX7IqmoIFeVPpFy0layNT5smXDaWj1IIc7AP5bKn47OcZPRnoA==",
+  "dgSpecHash": "uTd0aB2uSACb3NrX2HjAQkO0juDcDFgcYm1Cgur7Zb2D1V+KjpZ4jrLMouaC9nSbaFarnQn15qqdt6RtntZbmA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Computer\\Documents\\GitHub\\data-access-teknikhogskolan-uddevalla-2021\\Inlämning 3 - GUI-program\\Assignment3\\PopulateDatabase\\PopulateDatabase.csproj",
+  "projectFilePath": "C:\\Users\\Computer\\Documents\\GitHub\\GUI-assignment\\Assignment3\\PopulateDatabase\\PopulateDatabase.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Computer\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Computer\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

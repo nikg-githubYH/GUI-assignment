@@ -6046,11 +6046,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Computer\\Documents\\GitHub\\data-access-teknikhogskolan-uddevalla-2021\\Inlämning 3 - GUI-program\\Assignment3\\Assignment3\\Assignment3.csproj",
+      "projectUniqueName": "C:\\Users\\Computer\\Documents\\GitHub\\GUI-assignment\\Assignment3\\Assignment3\\Assignment3.csproj",
       "projectName": "Assignment3",
-      "projectPath": "C:\\Users\\Computer\\Documents\\GitHub\\data-access-teknikhogskolan-uddevalla-2021\\Inlämning 3 - GUI-program\\Assignment3\\Assignment3\\Assignment3.csproj",
+      "projectPath": "C:\\Users\\Computer\\Documents\\GitHub\\GUI-assignment\\Assignment3\\Assignment3\\Assignment3.csproj",
       "packagesPath": "C:\\Users\\Computer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Computer\\Documents\\GitHub\\data-access-teknikhogskolan-uddevalla-2021\\Inlämning 3 - GUI-program\\Assignment3\\Assignment3\\obj\\",
+      "outputPath": "C:\\Users\\Computer\\Documents\\GitHub\\GUI-assignment\\Assignment3\\Assignment3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Computer\\AppData\\Roaming\\NuGet\\NuGet.Config",

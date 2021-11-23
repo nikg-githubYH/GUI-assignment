@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wUlsnH4nSF6uN6CCQY8I5g+9ysdn8pKz/goz+J57UmOd8gUCPoSLtTNiPz/9IvGBiw2hTj4fnvXClbwiD+ra4Q==",
+  "dgSpecHash": "aRQYYmk7oGTyLVGo3U16Jxlg2/LUyeT4caJRqkiTlEm/xWL+dqdQ6WRf2PY/ynwku6FCooHcmVWg+rcLkytmyg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Computer\\Documents\\GitHub\\data-access-teknikhogskolan-uddevalla-2021\\Inlämning 3 - GUI-program\\Assignment3\\Assignment3\\Assignment3.csproj",
+  "projectFilePath": "C:\\Users\\Computer\\Documents\\GitHub\\GUI-assignment\\Assignment3\\Assignment3\\Assignment3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Computer\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Computer\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
