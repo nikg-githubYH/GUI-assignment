@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -14,10 +16,78 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using GeographyTools;
+using Microsoft.EntityFrameworkCore;
 using Windows.Devices.Geolocation;
 
 namespace Assignment3
 {
+    public class AppDbContext : DbContext
+    {
+        public DbSet<Tickets> Tickets { get; set; }
+        public DbSet<Screenings> Screenings { get; set; }
+        public DbSet<Movies> Movies { get; set; }
+        public DbSet<Cinemas> Cinemas { get; set; }
+
+
+        // Use of Fluent API as Data Annotations do not allow creation of unique costraints
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Cinemas>()
+                .HasAlternateKey(c => c.Name);
+        }
+        protected override void OnConfiguring(DbContextOptionsBuilder options)
+        {
+            options.UseSqlServer(@"Data Source=(local)\SQLEXPRESS;Initial Catalog=DataAccessGUIAssignment;Integrated Security=True");
+        }
+    }
+    public class Tickets
+    {
+        public int ID { get; set; }
+        [Required]
+        public Screenings Screening { get; set; }
+        [Column(TypeName = "datetime")]
+        public DateTime TimePurchased { get; set; }
+    }
+
+    public class Screenings
+    {
+        public int ID { get; set; }
+        [Column(TypeName = "time(0)")]
+        public TimeSpan Time { get; set; }
+        [Required]
+        public Movies Movie { get; set; }
+        [Required]
+        public Cinemas Cinema { get; set; }
+        public List<Tickets> Tickets { get; set; }
+    }
+
+    public class Movies
+    {
+        public int ID { get; set; }
+        [Required]
+        [StringLength(255)]
+        public string Title { get; set; }
+        public Int16 Runtime { get; set; }
+        [Column(TypeName = "date")]
+        public DateTime ReleaseDate { get; set; }
+        [Required]
+        [StringLength(255)]
+        public string PosterPath { get; set; }
+        public List<Screenings> Screenings { get; set; }
+    }
+
+    public class Cinemas
+    {
+        public int ID { get; set; }
+        [Required]
+        [StringLength(255)]
+        public string Name { get; set; }
+        [Required]
+        [StringLength(255)]
+        public string City { get; set; }
+        public List<Screenings> Screenings { get; set; }
+    }
+
     public partial class MainWindow : Window
     {
         private Thickness spacing = new Thickness(5);
@@ -40,28 +110,32 @@ namespace Assignment3
 
         private void Start()
         {
-            connection = new SqlConnection(@"Server=(local)\SQLExpress;Database=DataAccessGUIAssignment;Integrated Security=SSPI;");
-            connection.Open();
+            //connection = new SqlConnection(@"Server=(local)\SQLExpress;Database=DataAccessGUIAssignment;Integrated Security=SSPI;");
+            //connection.Open();
+            AppDbContext database;
 
-            // Window options
-            Title = "Cinemania";
-            Width = 1000;
-            Height = 600;
-            WindowStartupLocation = WindowStartupLocation.CenterScreen;
-            Background = Brushes.Black;
+            using (database = new AppDbContext())
+            {
+                // Window options
+                Title = "Cinemania";
+                Width = 1000;
+                Height = 600;
+                WindowStartupLocation = WindowStartupLocation.CenterScreen;
+                Background = Brushes.Black;
 
-            // Main grid
-            var grid = new Grid();
-            Content = grid;
-            grid.Margin = spacing;
-            grid.RowDefinitions.Add(new RowDefinition());
-            grid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
-            grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(5, GridUnitType.Star) });
-            grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(2, GridUnitType.Star) });
+                // Main grid
+                var grid = new Grid();
+                Content = grid;
+                grid.Margin = spacing;
+                grid.RowDefinitions.Add(new RowDefinition());
+                grid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
+                grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(5, GridUnitType.Star) });
+                grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(2, GridUnitType.Star) });
 
-            AddToGrid(grid, CreateCinemaGUI(), 0, 0);
-            AddToGrid(grid, CreateScreeningGUI(), 0, 1);
-            AddToGrid(grid, CreateTicketGUI(), 0, 2);
+                AddToGrid(grid, CreateCinemaGUI(), 0, 0);
+                AddToGrid(grid, CreateScreeningGUI(), 0, 1);
+                AddToGrid(grid, CreateTicketGUI(), 0, 2);
+            }
         }
 
         // Create the cinema part of the GUI: the left column.
