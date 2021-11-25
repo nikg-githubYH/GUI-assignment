@@ -6041,19 +6041,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Computer\\.nuget\\packages\\": {}
+    "C:\\Users\\Jörgen\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Computer\\Documents\\GitHub\\GUI-assignment\\Assignment3\\Assignment3\\Assignment3.csproj",
+      "projectUniqueName": "C:\\Users\\Jörgen\\Desktop\\.NET utbildning\\Inlämningsuppgift2\\GUI-assignment\\Assignment3\\Assignment3\\Assignment3.csproj",
       "projectName": "Assignment3",
-      "projectPath": "C:\\Users\\Computer\\Documents\\GitHub\\GUI-assignment\\Assignment3\\Assignment3\\Assignment3.csproj",
-      "packagesPath": "C:\\Users\\Computer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Computer\\Documents\\GitHub\\GUI-assignment\\Assignment3\\Assignment3\\obj\\",
+      "projectPath": "C:\\Users\\Jörgen\\Desktop\\.NET utbildning\\Inlämningsuppgift2\\GUI-assignment\\Assignment3\\Assignment3\\Assignment3.csproj",
+      "packagesPath": "C:\\Users\\Jörgen\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jörgen\\Desktop\\.NET utbildning\\Inlämningsuppgift2\\GUI-assignment\\Assignment3\\Assignment3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Computer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Jörgen\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6115,7 +6115,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.Windows.SDK.NET.Ref",
-            "version": "[10.0.19041.12, 10.0.19041.12]"
+            "version": "[10.0.19041.21, 10.0.19041.21]"
           }
         ],
         "frameworkReferences": {
@@ -6129,7 +6129,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

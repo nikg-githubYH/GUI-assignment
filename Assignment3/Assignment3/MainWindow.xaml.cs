@@ -101,7 +101,7 @@ namespace Assignment3
 
         // An SQL connection that we will keep open for the entire program.
         private SqlConnection connection;
-
+        private static AppDbContext database;
         public MainWindow()
         {
             InitializeComponent();
@@ -110,9 +110,8 @@ namespace Assignment3
 
         private void Start()
         {
-            //connection = new SqlConnection(@"Server=(local)\SQLExpress;Database=DataAccessGUIAssignment;Integrated Security=SSPI;");
-            //connection.Open();
-            AppDbContext database;
+            connection = new SqlConnection(@"Server=(local)\SQLExpress;Database=DataAccessGUIAssignment;Integrated Security=SSPI;");
+            connection.Open();
 
             using (database = new AppDbContext())
             {
@@ -270,16 +269,13 @@ namespace Assignment3
         // Get a list of all cities that have cinemas in them.
         private IEnumerable<string> GetCities()
         {
-            string sql = @"
-                SELECT DISTINCT City
-                FROM Cinemas
-                ORDER BY City";
-            using var command = new SqlCommand(sql, connection);
-            using var reader = command.ExecuteReader();
             var cities = new List<string>();
-            while (reader.Read())
+            foreach (var city in database.Cinemas.Select(c => c.City))
             {
-                cities.Add(Convert.ToString(reader["City"]));
+                if (!cities.Contains(city))
+                {
+                    cities.Add(city);
+                }
             }
             return cities;
         }
@@ -287,19 +283,21 @@ namespace Assignment3
         // Get a list of all cinemas in the currently selected city.
         private IEnumerable<string> GetCinemasInSelectedCity()
         {
-            string sql = @"
-                SELECT * FROM Cinemas
-                WHERE City = @City
-                ORDER BY Name";
-            using var command = new SqlCommand(sql, connection);
+            /*            string sql = @"
+                            SELECT * FROM Cinemas
+                            WHERE City = @City
+                            ORDER BY Name";
+                        using var command = new SqlCommand(sql, connection);
+                        string currentCity = (string)cityComboBox.SelectedItem;
+                        command.Parameters.AddWithValue("@City", currentCity);
+                        using var reader = command.ExecuteReader();
+                        var cinemas = new List<string>();
+                        while (reader.Read())
+                        {
+                            cinemas.Add(Convert.ToString(reader["Name"]));
+                        }*/
             string currentCity = (string)cityComboBox.SelectedItem;
-            command.Parameters.AddWithValue("@City", currentCity);
-            using var reader = command.ExecuteReader();
-            var cinemas = new List<string>();
-            while (reader.Read())
-            {
-                cinemas.Add(Convert.ToString(reader["Name"]));
-            }
+            List<string> cinemas = database.Cinemas.Where(c => c.City == currentCity).Select(n => n.Name).ToList();
             return cinemas;
         }
 
