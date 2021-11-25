@@ -296,9 +296,13 @@ namespace Assignment3
                         {
                             cinemas.Add(Convert.ToString(reader["Name"]));
                         }*/
-            string currentCity = (string)cityComboBox.SelectedItem;
-            List<string> cinemas = database.Cinemas.Where(c => c.City == currentCity).Select(n => n.Name).ToList();
-            return cinemas;
+            using (database = new AppDbContext())
+            {
+                string currentCity = (string)cityComboBox.SelectedItem;
+                List<string> cinemas = database.Cinemas.Where(c => c.City == currentCity).Select(n => n.Name).ToList();
+                return cinemas;
+            }
+            
         }
 
         // Update the GUI with the cinemas in the currently selected city.
