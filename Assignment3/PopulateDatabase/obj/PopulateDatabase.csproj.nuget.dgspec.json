@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jörgen\\Desktop\\.NET utbildning\\Inlämningsuppgift2\\GUI-assignment\\Assignment3\\PopulateDatabase\\PopulateDatabase.csproj": {}
+    "C:\\Users\\Jörgen\\Documents\\GitHub\\GUI-assignment\\Assignment3\\PopulateDatabase\\PopulateDatabase.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jörgen\\Desktop\\.NET utbildning\\Inlämningsuppgift2\\GUI-assignment\\Assignment3\\PopulateDatabase\\PopulateDatabase.csproj": {
+    "C:\\Users\\Jörgen\\Documents\\GitHub\\GUI-assignment\\Assignment3\\PopulateDatabase\\PopulateDatabase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jörgen\\Desktop\\.NET utbildning\\Inlämningsuppgift2\\GUI-assignment\\Assignment3\\PopulateDatabase\\PopulateDatabase.csproj",
+        "projectUniqueName": "C:\\Users\\Jörgen\\Documents\\GitHub\\GUI-assignment\\Assignment3\\PopulateDatabase\\PopulateDatabase.csproj",
         "projectName": "PopulateDatabase",
-        "projectPath": "C:\\Users\\Jörgen\\Desktop\\.NET utbildning\\Inlämningsuppgift2\\GUI-assignment\\Assignment3\\PopulateDatabase\\PopulateDatabase.csproj",
+        "projectPath": "C:\\Users\\Jörgen\\Documents\\GitHub\\GUI-assignment\\Assignment3\\PopulateDatabase\\PopulateDatabase.csproj",
         "packagesPath": "C:\\Users\\Jörgen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jörgen\\Desktop\\.NET utbildning\\Inlämningsuppgift2\\GUI-assignment\\Assignment3\\PopulateDatabase\\obj\\",
+        "outputPath": "C:\\Users\\Jörgen\\Documents\\GitHub\\GUI-assignment\\Assignment3\\PopulateDatabase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jörgen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -69,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

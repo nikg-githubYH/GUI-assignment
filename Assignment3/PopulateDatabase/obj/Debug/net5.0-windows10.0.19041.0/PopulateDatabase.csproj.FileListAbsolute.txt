@@ -54,3 +54,30 @@ C:\Users\Jörgen\Desktop\.NET utbildning\Inlämningsuppgift2\GUI-assignment\Assi
 C:\Users\Jörgen\Desktop\.NET utbildning\Inlämningsuppgift2\GUI-assignment\Assignment3\PopulateDatabase\obj\Debug\net5.0-windows10.0.19041.0\ref\PopulateDatabase.dll
 C:\Users\Jörgen\Desktop\.NET utbildning\Inlämningsuppgift2\GUI-assignment\Assignment3\PopulateDatabase\obj\Debug\net5.0-windows10.0.19041.0\PopulateDatabase.pdb
 C:\Users\Jörgen\Desktop\.NET utbildning\Inlämningsuppgift2\GUI-assignment\Assignment3\PopulateDatabase\obj\Debug\net5.0-windows10.0.19041.0\PopulateDatabase.genruntimeconfig.cache
+C:\Users\Jörgen\Documents\GitHub\GUI-assignment\Assignment3\PopulateDatabase\bin\Debug\net5.0-windows10.0.19041.0\PopulateDatabase.exe
+C:\Users\Jörgen\Documents\GitHub\GUI-assignment\Assignment3\PopulateDatabase\bin\Debug\net5.0-windows10.0.19041.0\SampleCinemas.csv
+C:\Users\Jörgen\Documents\GitHub\GUI-assignment\Assignment3\PopulateDatabase\bin\Debug\net5.0-windows10.0.19041.0\SampleCinemasWithPositions.csv
+C:\Users\Jörgen\Documents\GitHub\GUI-assignment\Assignment3\PopulateDatabase\bin\Debug\net5.0-windows10.0.19041.0\SampleMovies.csv
+C:\Users\Jörgen\Documents\GitHub\GUI-assignment\Assignment3\PopulateDatabase\bin\Debug\net5.0-windows10.0.19041.0\PopulateDatabase.deps.json
+C:\Users\Jörgen\Documents\GitHub\GUI-assignment\Assignment3\PopulateDatabase\bin\Debug\net5.0-windows10.0.19041.0\PopulateDatabase.runtimeconfig.json
+C:\Users\Jörgen\Documents\GitHub\GUI-assignment\Assignment3\PopulateDatabase\bin\Debug\net5.0-windows10.0.19041.0\PopulateDatabase.runtimeconfig.dev.json
+C:\Users\Jörgen\Documents\GitHub\GUI-assignment\Assignment3\PopulateDatabase\bin\Debug\net5.0-windows10.0.19041.0\PopulateDatabase.dll
+C:\Users\Jörgen\Documents\GitHub\GUI-assignment\Assignment3\PopulateDatabase\bin\Debug\net5.0-windows10.0.19041.0\ref\PopulateDatabase.dll
+C:\Users\Jörgen\Documents\GitHub\GUI-assignment\Assignment3\PopulateDatabase\bin\Debug\net5.0-windows10.0.19041.0\PopulateDatabase.pdb
+C:\Users\Jörgen\Documents\GitHub\GUI-assignment\Assignment3\PopulateDatabase\bin\Debug\net5.0-windows10.0.19041.0\System.Data.SqlClient.dll
+C:\Users\Jörgen\Documents\GitHub\GUI-assignment\Assignment3\PopulateDatabase\bin\Debug\net5.0-windows10.0.19041.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Jörgen\Documents\GitHub\GUI-assignment\Assignment3\PopulateDatabase\bin\Debug\net5.0-windows10.0.19041.0\runtimes\win-x64\native\sni.dll
+C:\Users\Jörgen\Documents\GitHub\GUI-assignment\Assignment3\PopulateDatabase\bin\Debug\net5.0-windows10.0.19041.0\runtimes\win-x86\native\sni.dll
+C:\Users\Jörgen\Documents\GitHub\GUI-assignment\Assignment3\PopulateDatabase\bin\Debug\net5.0-windows10.0.19041.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Jörgen\Documents\GitHub\GUI-assignment\Assignment3\PopulateDatabase\bin\Debug\net5.0-windows10.0.19041.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Jörgen\Documents\GitHub\GUI-assignment\Assignment3\PopulateDatabase\bin\Debug\net5.0-windows10.0.19041.0\Microsoft.Windows.SDK.NET.dll
+C:\Users\Jörgen\Documents\GitHub\GUI-assignment\Assignment3\PopulateDatabase\bin\Debug\net5.0-windows10.0.19041.0\WinRT.Runtime.dll
+C:\Users\Jörgen\Documents\GitHub\GUI-assignment\Assignment3\PopulateDatabase\obj\Debug\net5.0-windows10.0.19041.0\PopulateDatabase.csproj.AssemblyReference.cache
+C:\Users\Jörgen\Documents\GitHub\GUI-assignment\Assignment3\PopulateDatabase\obj\Debug\net5.0-windows10.0.19041.0\PopulateDatabase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jörgen\Documents\GitHub\GUI-assignment\Assignment3\PopulateDatabase\obj\Debug\net5.0-windows10.0.19041.0\PopulateDatabase.AssemblyInfoInputs.cache
+C:\Users\Jörgen\Documents\GitHub\GUI-assignment\Assignment3\PopulateDatabase\obj\Debug\net5.0-windows10.0.19041.0\PopulateDatabase.AssemblyInfo.cs
+C:\Users\Jörgen\Documents\GitHub\GUI-assignment\Assignment3\PopulateDatabase\obj\Debug\net5.0-windows10.0.19041.0\PopulateDatabase.csproj.CoreCompileInputs.cache
+C:\Users\Jörgen\Documents\GitHub\GUI-assignment\Assignment3\PopulateDatabase\obj\Debug\net5.0-windows10.0.19041.0\PopulateDatabase.dll
+C:\Users\Jörgen\Documents\GitHub\GUI-assignment\Assignment3\PopulateDatabase\obj\Debug\net5.0-windows10.0.19041.0\ref\PopulateDatabase.dll
+C:\Users\Jörgen\Documents\GitHub\GUI-assignment\Assignment3\PopulateDatabase\obj\Debug\net5.0-windows10.0.19041.0\PopulateDatabase.pdb
+C:\Users\Jörgen\Documents\GitHub\GUI-assignment\Assignment3\PopulateDatabase\obj\Debug\net5.0-windows10.0.19041.0\PopulateDatabase.genruntimeconfig.cache
