@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jörgen\\Documents\\GitHub\\GUI-assignment\\Assignment3\\PopulateDatabase\\PopulateDatabase.csproj": {}
+    "C:\\Users\\Computer\\Documents\\GitHub\\GUI-assignment\\Assignment3\\PopulateDatabase\\PopulateDatabase.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jörgen\\Documents\\GitHub\\GUI-assignment\\Assignment3\\PopulateDatabase\\PopulateDatabase.csproj": {
+    "C:\\Users\\Computer\\Documents\\GitHub\\GUI-assignment\\Assignment3\\PopulateDatabase\\PopulateDatabase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jörgen\\Documents\\GitHub\\GUI-assignment\\Assignment3\\PopulateDatabase\\PopulateDatabase.csproj",
+        "projectUniqueName": "C:\\Users\\Computer\\Documents\\GitHub\\GUI-assignment\\Assignment3\\PopulateDatabase\\PopulateDatabase.csproj",
         "projectName": "PopulateDatabase",
-        "projectPath": "C:\\Users\\Jörgen\\Documents\\GitHub\\GUI-assignment\\Assignment3\\PopulateDatabase\\PopulateDatabase.csproj",
-        "packagesPath": "C:\\Users\\Jörgen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jörgen\\Documents\\GitHub\\GUI-assignment\\Assignment3\\PopulateDatabase\\obj\\",
+        "projectPath": "C:\\Users\\Computer\\Documents\\GitHub\\GUI-assignment\\Assignment3\\PopulateDatabase\\PopulateDatabase.csproj",
+        "packagesPath": "C:\\Users\\Computer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Computer\\Documents\\GitHub\\GUI-assignment\\Assignment3\\PopulateDatabase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Jörgen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Computer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.Windows.SDK.NET.Ref",
-              "version": "[10.0.19041.21, 10.0.19041.21]"
+              "version": "[10.0.19041.12, 10.0.19041.12]"
             }
           ],
           "frameworkReferences": {
@@ -69,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
